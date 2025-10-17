@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Feedback extends Model
 {
-    protected $table = 'feedback';
+    protected $table = 'kviz_feedback';
 
     protected $fillable = [
         'feedback',
